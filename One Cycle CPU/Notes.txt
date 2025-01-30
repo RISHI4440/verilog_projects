@@ -9,4 +9,7 @@ TO run this One Cycle CPU in Model SIM
 
 
 
-THe cpu is running a hex code from "fixed_loadfile.hex". The "fixed_loadfile.hex" is compiled c code with the help of RISC-V tool chain on linux 
+The cpu is running a hex code from "fixed_loadfile.hex". The "fixed_loadfile.hex" is compiled c code with the help of RISC-V tool chain on linux 
+
+
+Also we generated Q_Mem (DRAM)and Q_IMem (Instruction Mem) in Quartus Prime Lite edition (The Synthetic Mem were generated respective to the FPGA model we have)
