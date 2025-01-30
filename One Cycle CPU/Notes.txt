@@ -1,0 +1,12 @@
+This is a One Cycle CPU build in Varlog to be flashed on a FPGA board, its a 32 bit CPU
+
+
+TO run this One Cycle CPU in Model SIM 
+
+1) compile all the files 
+2) To run the Code -> Simulate "OneCycleCPU_tb2" Its a test bed
+3) Please make sure before running the simulation please add "altera_mf, altera_mf_ver" librarys in them simulation
+
+
+
+THe cpu is running a hex code from "fixed_loadfile.hex". The "fixed_loadfile.hex" is compiled c code with the help of RISC-V tool chain on linux 
